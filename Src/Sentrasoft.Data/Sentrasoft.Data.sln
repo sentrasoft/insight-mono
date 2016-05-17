@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sentrasoft.Data", "Src\Sentrasoft.Data.csproj", "{A5B283AF-239B-43FE-9CF8-8A33A81242FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5B283AF-239B-43FE-9CF8-8A33A81242FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5B283AF-239B-43FE-9CF8-8A33A81242FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5B283AF-239B-43FE-9CF8-8A33A81242FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5B283AF-239B-43FE-9CF8-8A33A81242FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
