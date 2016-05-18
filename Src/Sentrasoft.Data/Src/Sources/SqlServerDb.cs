@@ -1,4 +1,4 @@
-﻿/*
+/*
  * 
  * INSIGHT-MONO
  * Copyright (c) 2016 Sentrasoft (http://www.sentrasoft.com)
@@ -21,6 +21,7 @@ using System;
 using System.Data;
 using System.Data.Common;
 using System.Data.SqlClient;
+using System.ComponentModel;
 using System.Collections.Generic;
 
 namespace Sentrasoft.Data
@@ -28,14 +29,14 @@ namespace Sentrasoft.Data
 	/// <summary>
 	/// Represents a connection on database providers that are designed for Microsoft SQL Server.
 	/// </summary>
-	public sealed class SqlServer : DbSql
+	public sealed class SqlServerDb : DbSql
 	{
 
 		#region Construct
 		/// <summary>
-		/// Initializes a new instance of the <see cref="Sentrasoft.Data.SqlServer"/> class.
+		/// Initializes a new instance of the <see cref="Sentrasoft.Data.SqlServerDb"/> class.
 		/// </summary>
-		public SqlServer ()
+		public SqlServerDb ()
 		{
 			Crud = new DbSqlCrud (this);
 		}
@@ -59,6 +60,7 @@ namespace Sentrasoft.Data
 		/// Gets or sets the server port.
 		/// </summary>
 		/// <value>Server database port (service).</value>
+		[DefaultValue(1433)]
 		public override int Port {
 			get {
 				return base.Port;
